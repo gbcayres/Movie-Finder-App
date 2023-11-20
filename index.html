@@ -1,0 +1,31 @@
+ <?php
+  include("protect.php")
+ ?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="js/scripts.js" defer></script>
+  <title>Movie Finder App</title>
+</head>
+<body>
+  <header class="hero">
+    <a href="." class="hero__title">Movie Finder App</a>
+    <div class="search-container">
+      <input 
+        type="text"
+        class="search-input"
+        placeholder="Search movie..."
+      >
+      <button class="search-btn">Search</button>
+    </div>
+  </header>
+  <table class="main">
+    <tr class="cards-container"></tr>
+  </table>
+  <button class="loadMore-btn"">Load more</button>
+</body>
+</html>
